@@ -1,11 +1,11 @@
-/* ===== RESET ===== */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* ===== BASE ===== */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -23,7 +23,7 @@ a:active {
     outline: none;
 }
 
-/* ===== HEADER ===== */
+
 .header {
     background: linear-gradient(90deg, #ffd6e8, #ffeef6);
     padding: 20px 0;
@@ -55,7 +55,7 @@ a:active {
     color: #666;
 }
 
-/* ===== HEADER LINKS ===== */
+
 .header-links {
     margin-left: auto;
     display: flex;
@@ -78,11 +78,9 @@ a:active {
     color: #444;
 }
 
-/* ===== NAV ===== */
+
 .nav {
-    background-color: #fff;
-    border-bottom: 2px solid #ffe0ee;
-    padding: 14px;
+
 
     display: flex;
     justify-content: center;
@@ -95,7 +93,7 @@ a:active {
     font-weight: bold;
 }
 
-/* ===== MAIN ===== */
+
 .main-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -108,7 +106,7 @@ a:active {
     padding: 30px;
     margin-bottom: 30px;
     text-align: center;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  
 }
 
 .welcome h2 {
@@ -127,10 +125,10 @@ a:active {
     padding: 25px;
     border-radius: 14px;
     margin-bottom: 30px;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+
 }
 
-/* ===== PRODUCTS ===== */
+
 .products {
     max-width: 1200px;
     margin: 0 auto;
@@ -154,7 +152,7 @@ a:active {
     background-color: #fff;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  
 }
 
 .product-image {
@@ -190,7 +188,7 @@ a:active {
     font-weight: bold;
 }
 
-/* ===== BUTTON ===== */
+
 .back-button {
     display: inline-block;
     margin-top: 15px;
@@ -201,7 +199,7 @@ a:active {
     font-size: 14px;
 }
 
-/* ===== SHOP PAGES ===== */
+
 .shop-page {
     max-width: 1200px;
     margin: 40px auto;
@@ -223,7 +221,7 @@ a:active {
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
 }
 
-/* ===== CART ===== */
+
 .cart-item {
     display: flex;
     justify-content: space-between;
@@ -243,7 +241,7 @@ a:active {
     margin-top: 20px;
 }
 
-/* ===== CHECKOUT ===== */
+
 .shop-form {
     display: flex;
     flex-direction: column;
@@ -261,7 +259,7 @@ a:active {
     border: 1px solid #ddd;
 }
 
-/* ===== ORDERS ===== */
+
 .order-item {
     padding: 15px 0;
     border-bottom: 1px solid #eee;
@@ -271,7 +269,7 @@ a:active {
     border-bottom: none;
 }
 
-/* ===== CONTACTS ===== */
+
 .contacts {
     max-width: 1200px;
     margin: 0 auto;
@@ -296,10 +294,9 @@ a:active {
     padding: 25px;
     border-radius: 14px;
     text-align: center;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+
 }
 
-/* ===== FOOTER ===== */
 .footer {
     background: linear-gradient(90deg, #ff4f9a, #ff8fc0);
     color: #fff;
@@ -308,7 +305,6 @@ a:active {
     margin-top: 40px;
 }
 
-/* ===== ADAPTIVE ===== */
 @media (max-width: 768px) {
     .logo-container {
         flex-direction: column;
